@@ -1,0 +1,253 @@
+.navbar{
+    background-color: #19855b !important;
+}
+nav{
+    position: fixed !important;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+}
+.navbar-nav{
+    margin-left: auto;
+}
+.form-inline {
+    margin-left: auto;
+    width: 30%;
+}
+.fa-shopping-cart {
+    font-size: 24px !important;
+}
+.fa-shopping-cart:hover{
+    color: greenyellow;
+}
+.fa-user-o{
+    font-size: 24px !important;
+}
+.fa-user-o:hover{
+    color: greenyellow;
+}
+.d-block {
+    display: block!important;
+    height: 568px;
+}
+.fa-truck, .fa-phone, .fa-archive{
+    font-size: 50px !important;
+    padding-right: 10px;
+    color: #19855b;
+}
+.facility{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+}
+.f1, .f2, .f3{
+    padding: 20px;
+    display: flex;
+    width: 300px;
+    height: 80px;
+    border: 1px solid grey;
+    box-shadow: 5px 10px 5px grey;
+    align-items: center;
+    margin-top: 15px;
+    color: #19855b;
+}
+
+.featured{
+    color: #19855b;
+    margin-top: 70px;
+}
+
+.featured > h1{
+    text-align: center;
+}
+.div-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    margin: 75px;
+}
+.btn-primary{
+    background-color: #19855b !important;
+    border-color: #19855b !important;
+}
+.btn-primary:hover{
+    color: #19855b !important;
+    background-color: #ffff !important;
+}
+.div-footer{
+    background-color: black;
+    color: #19855b;
+    text-align: center;
+    padding: 50px;
+    font-size: 13px;
+}
+.top-button{
+    position: fixed;
+    bottom: 3px;
+    left: 1300px;
+}
+.fa-chevron-circle-up{
+    color: gray;
+    font-size: 40px !important;
+}
+
+
+/*shop*/
+.shop{
+    margin-top: 92px;
+    text-align: center;
+    color: #19855b;
+}
+
+
+.div-welcome,.products{
+    margin-top: 100px;
+    text-align: center;
+    color: #19855b;
+}
+.div-company{
+    margin: 100px 50px 50px 50px;
+    display: flex;
+    font-weight: bold;
+}
+.c1, .c2, .c3, .c4{
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    box-shadow: 5px 5px 5px grey;
+    margin-left: 45px;
+    width: 20%;
+    padding: 10px;
+    color: #19855b !important;
+    text-align: center;
+}
+.c1 >a, .c2 >a, .c3 >a, .c4 >a{
+    color: #19855b !important;
+}
+.products-card{
+    display: flex;
+    flex-wrap: wrap;
+}
+.line{
+    margin-left: 105px;
+    position: relative;
+    margin-top: -60px;
+}
+.span1{
+    color: #19855b;
+    font-weight: bolder;
+    font-size: 45px;
+}
+.span2{
+    font-size: 24px;
+    position: absolute;
+    color: #19855b;
+    margin-left: -1px;
+    top: 28px;
+}
+.contact{
+    margin-top: 80px;
+    width: 50%;
+    padding: 25px;
+    color: #19855b;
+}
+.contact p{
+    opacity: 70%;
+}
+.contact>h1{
+    text-align: center;
+    opacity: 100% !important;
+}
+.contact p span{
+    color: green !important;
+    opacity: 100% !important;
+}
+.contact p span a{
+    color: green !important;
+    opacity: 100% !important;
+}
+
+.link{
+    display: flex;
+}
+.link p{
+    margin-right: 30px;
+    font-size: 25px;
+}
+.link p:hover{
+    opacity: 100% !important;
+}
+.cont-form{
+    position: absolute;
+    top: 150px;
+    left: 60%;
+}
+#email{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+nav a img{
+    margin-left: 60px;
+}
+
+
+
+
+/*Media Queries*/
+
+@media (max-width:767px) and (min-width:320px){
+    .div-company{
+        margin: 0;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+    width: 100%;
+    }   
+    .c1, .c2, .c3, .c4{
+        margin-bottom: 20px;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    box-shadow: 5px 5px 5px grey;
+    margin-left: 45px;
+    width: 80%;
+    padding: 10px;
+    color: #19855b !important;
+    text-align: center;
+    }
+    .c1 >a, .c2 >a, .c3 >a, .c4 >a{
+        color: #19855b !important;
+    }
+    .c1 a img, .c2 >a img, .c3 >a img, .c4 >a img{
+        width: 100%;
+    }
+    .products-card{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .line{
+        margin-left: 105px;
+        display: none;
+        position: relative;
+        margin-top: -60px;
+    }
+    .span1{
+        color: #19855b;
+        font-weight: bolder;
+        font-size: 45px;
+    }
+    .span2{
+        font-size: 24px;
+        position: absolute;
+        color: #19855b;
+        margin-left: -1px;
+        top: 28px;
+    }
+    .top-button{
+        position: fixed;
+        bottom: 0;
+        left: 323px;
+    }
+}
